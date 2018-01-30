@@ -1,0 +1,9 @@
+name: BasicPlugin
+author: mythwars
+main: cc.mcpvp.baseplugin.BasicPlugin
+version: 1.0.0
+softdepend: [ProtocolLib, LanguageAPI]
+
+commands:
+  basicplugin:
+   description: Basic command

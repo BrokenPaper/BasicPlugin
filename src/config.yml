@@ -1,0 +1,65 @@
+projectile-knockback: 
+  enabled: true
+  damage:
+    snowball: 0.1
+    egg: 0.1
+    ender_pearl: 0.1
+    
+fishing-knockback: 
+  enabled: true
+  checkCancelled: false
+  damage: 0.2
+  
+disable-crafting: 
+  enabled: true
+  denied: []
+
+anti-bot: 
+  enabled: true
+  login-time: 15
+ 
+  
+pickup-message: 
+  enabled: true
+  format-pick: '&a+ &e%item% &7X &a%amount%'
+  format-drop: '&c- &e%item% &7X &c%amount%'
+  
+ground-item-name: 
+  enabled: true
+  
+fire-spread:
+  enabled: true
+  
+keep-inventory: 
+  enabled: true
+  staff: true
+  exp: true
+  
+  
+  
+lag:
+  no-liquid-move:
+    enabled: false
+    
+  no-high-water: 
+    enabled: true
+    limit: 8
+  no-spawn-chunk:
+    enabled: true
+    
+  chunk-unload-remove: 
+    animal: false
+    monster: false
+    arrow: false
+    experience_orb: false
+    custom: []
+  
+  redstone-check:
+  
+    enabled: true
+    
+    #每分钟的上限
+    limit: 20
+    
+    #异步检测
+    async: true
